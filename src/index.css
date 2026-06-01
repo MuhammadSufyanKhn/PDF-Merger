@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Inter', system-ui, sans-serif; }
+
+.ReactCrop__crop-selection {
+  border: 2px solid #4f46e5 !important;
+  box-shadow: 0 0 0 9999px rgba(0,0,0,0.5) !important;
+}
+.ReactCrop__drag-handle::after {
+  background: #4f46e5 !important;
+  border: 2px solid #fff !important;
+}
